@@ -41,7 +41,6 @@ namespace NumbersGame
 		{
 			Random rng = new Random();
 			int number = rng.Next(1, 21);
-			number = 10;
 			Console.WriteLine("Välkommen! Jag tänker på ett nummer. Kan du gissa vilket? Du får fem försök.");
 
 			while (tries > 0)
